@@ -7,8 +7,8 @@ gameStr = str(games)
 overE = "Error, a single game of bowling can not have a score over 300."
 underE = "Error, a single game of bowling can not have a score under 0."
 
-if games > 12:
-  print("This program does not support over 10 games.")
+if games > 1000:
+  print("This program does not support over 1000 games.")
   sys.exit()
 elif games < 1:
   print("You can not play less than 1 full game of bowling.")
